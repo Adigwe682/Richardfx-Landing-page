@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Outfit:wght@400;700&family=Pacifico&family=Poppins:wght@200;400;500;600;700&family=Redressed&display=swap"
+        rel="stylesheet">
+        <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href=".">
+    <title>RichardExchange</title>
+</head>
+
+<body>
+    <div id="mobile-overlay" class=" hidden bg-black fixed z-10 opacity-90 top-0 right-0 left-0 bottom-0"></div>
+    <div id="mobile-menu" class="transistion-all duration-700   w-64  z-30 fixed right-[-300px] top-0 bottom-0 bg-white">
+        <div class="close cursor-pointer" id="close">
+            <img src="./images/close_FILL0_wght400_GRAD0_opsz48.svg"  alt="">
+        </div>
+        <div class="flex flex-col items-center py-14 space-y-5">
+            <div class="group">
+                <p class="text-black hover:cursor-pointer group-hover:text-orange-500  transistion-color duration-700">
+                    Home</p>
+                <div class=" w-0 h-1  bg-black group-hover:w-10 transistion duration-700"></div>
+            </div>
+            <div class="group">
+                <p class="text-black hover:cursor-pointer group-hover:text-orange-500 transistion-color duration-700">
+                    Blog</p>
+                <div class=" w-0 h-1  bg-black group-hover:w-8 transistion duration-700"></div>
+            </div>
+            <P
+                class="text-white hover:cursor-pointer shadow-lg rounded-md bg-green-900 px-10 py-2 hover:text-orange-500 transistion-color uppercase duration-700">
+                Contact Us
+            </P>
+        </div>
+    </div>
+    <header class="w-full bg-[#4b3772] h-24 flex   items-center justify-between px-6">
+        <figure>
+            <img src="./images/67.png" alt=""  class="w-40">
+        </figure>
+         <button id="hammenu" type="button" class="focus\:outline-none cursor-pointer md:hidden rotate-180">
+                <div class="w-[30px] h-[4px] bg-white"></div>
+                <div class="w-[30px] h-[4px] bg-white  translate-y-1"></div>
+                <div class="w-[30px] h-[4px] bg-white translate-y-2"></div>
+            </button>
+        <div class=" hidden md:block">
+            <div class="flex items-center space-x-10 mr-24">
+                <P class="text-white hover:cursor-pointer hover:text-orange-500 transistion-color duration-700">
+                    Home
+                </P>
+                <P class="text-white hover:cursor-pointer hover:text-orange-500 transistion-color duration-700">
+                    Blog
+                </P>
+                <p class="text-white hover:text-orange-500  transistion duration-700 hover:cursor-pointer">About Us</p>
+                <P
+                    class="text-white hover:cursor-pointer shadow-lg rounded-md bg-green-900 px-10 py-2 hover:text-orange-500 transistion-color uppercase duration-700">
+                    Contact Us
+                </P>
+            </div>
+        </div>
+    </header>
+    <div class="hidden mt-1.3 z-10 md:block">
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener"
+                    target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
+            <script type="text/javascript"
+                src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                    {
+                        "symbols": [
+                            {
+                                "proName": "FOREXCOM:SPXUSD",
+                                "title": "S&P 500"
+                            },
+                            {
+                                "proName": "FOREXCOM:NSXUSD",
+                                "title": "US 100"
+                            },
+                            {
+                                "proName": "FX_IDC:EURUSD",
+                                "title": "EUR/USD"
+                            },
+                            {
+                                "proName": "BITSTAMP:BTCUSD",
+                                "title": "Bitcoin"
+                            },
+                            {
+                                "proName": "BITSTAMP:ETHUSD",
+                                "title": "Ethereum"
+                            }
+                        ],
+                            "showSymbolLogo": true,
+                                "colorTheme": "dark",
+                                    "isTransparent": false,
+                                        "displayMode": "adaptive",
+                                            "locale": "en"
+                    }
+                </script>
+        </div>
+        <!-- TradingView Widget END -->
+    </div>
+    <main>
+        <div id="overlay" class="z-2 bg-[#d3bdff] flex flex-col items-center space-y-3  justify-center absolute w-full h-[245px]  opacity-95
+            
+            -mt-1  md:flex-row md:space-x-10 md:space-y-0 md:h-96 md:mt-2 md:justify-around  ">
+            <div class="text-center ">
+                <p class="text-black font-bold text-2xl md:text-6xl md:max-w-sm">Welcome to Richard's Fx</p>
+                <p class="text-orange-500 font-light md:text-2xl md:mt-5">Best Investment and Trading Website.</p>
+                <button
+                    class="w-28 text-white bg-green-800 rounded p-1 mt-3 shadow-white shadow-inner transistion duration-700 hover:w-20 text-xl md:mt-7">Join
+                    Us</button>
+            </div>
+            <div>
+                <img src="./images/95.png" alt="" class="w-56 md:w-[600px]">
+            </div>
+        </div>
+        <section id="section1" class=" h-60 w-full md:h-96 md:-mt-10">
+        </section>
+        <section id="2" class="bg-[#e9deff] py-10 w-full  px-10">
+            <p class="text-center text-5xl mb-11 underline">Our Service</p>
+            <div class="flex flex-col space-y-20 items-center justify-center md:space-y-0 md:flex-row md:space-x-10">
+                <div class="hover:scale-110 duration-700">
+                    <p class="text-center rounded-t-xl text-white text-xl bg-red-700 max-w-xm  ">We Give Trading Signals
+                    </p>
+                    <img src="./images/Forex-Signals.jpg" alt="" class="md:w-96">
+                </div>
+                <div class="hover:scale-110 duration-700">
+                    <p class="text-center rounded-t-xl text-white text-xl bg-green-700 max-w-xm">
+                        Investment Platform
+                    </p>
+                    <img src="./images/undraw_Investment_data_re_sh9x.png" alt="" class="md:w-96 ">
+                </div>
+                <div class="hover:scale-110 duration-700">
+                    <p class="text-center rounded-t-xl text-white text-xl bg-green-700 max-w-xm">Futures Trading</p>
+                    <img src="./images/Forex-Trading-Signals.jpeg" alt="" class="md:w-96">
+                </div>
+            </div>
+        </section>
+        <section id="3" class="w-full mt-10  md:px-10 md:py-10">
+            <div class="flex flex-col space-y-10 md:space-y-o md:flex-row md:space-x-9 ">
+                <div class="w-50% text-center  px-10 md:text-left md:px-0">
+                    <p class=" text-xl md:text-4xl font-bold max-w-2xl mb-2">With all the perfection from our sample</p>
+                    <p class="text-2xl max-w-2xl mb-6">We have 20 years of experience <span
+                            class="text-orange-600">bringing great growth</span> with products that accelerate the
+                        success of your business.</p>
+                    <p class="max-w-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua</p>
+                    <P
+                        class="text-white hover:cursor-pointer w-44 shadow-lg rounded-md mx-auto md:mx-0 bg-green-900 px-10 py-2 hover:text-orange-500 transistion-color uppercase duration-700">
+                        Contact Us
+                    </P>
+                </div>
+                <div class="md:relative md:w-50%">
+                    <div class="flex flex-col space-y-10 md:items-center md:flex-row md:space-y-0 md:space-x-4">
+                        <div
+                            class=" text-black mx-auto px-10 py-5 text-center md:-mt-10 md:mx-0 md:w-60  md:px-2 rounded-md shadow-md   shadow-black bg-[#d3bdff]">
+                            <p class=" text-xm">
+                                Connect with us:
+                            </p>
+                            <p class="text-2xl max-w-2xl">
+                                With all inquiries, <br> we always have.
+                            </p>
+                        </div>
+                        <div>
+                            <img src="./images/img22.jpg" alt="" class="mx-auto w-64 shadow-lg shadow-black rounded-md">
+                        </div>
+                    </div>
+                    <div class=" mt-10  md:mt-32 flex flex-col px-10 space-y-10 md:flex-row md:space-y-0 md:space-x-5">
+                        <div>
+                            <img src="./images/what-are-forex-trading-signals.jpg" alt=""
+                                class=" mx-auto w-64 md:w-[300px] rounded-md md:absolute shadow-md shadow-black md:top-[150px] md:-left-10">
+                        </div>
+                        <div>
+                            <img src="./images/what-are-forex-trading-signals.jpg" alt=""
+                                class=" mx-auto w-64 md:w-[300px] shadow-md shadow-black  rounded-md md:absolute md:top-[200px] md:-right-16">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-10 md:mt-28  w-full">
+            <div class="px-10 flex justify-center">
+                <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a
+                            href="https://www.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener"
+                            target="_blank"><span class="blue-text">BTCUSDT rates</span></a> by Captian,s FxPro</div>
+                    <script type="text/javascript"
+                        src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+                            {
+                                "symbol": "BINANCE:BTCUSDT",
+                                    "width": "200",
+                                        "colorTheme": "light",
+                                            "isTransparent": false,
+                                                "locale": "en"
+                            }
+                        </script>
+                </div>
+                <!-- TradingView Widget END  -->
+            </div>
+            <div class="flex justify-center my-5">
+                <p2 class="font-bold text-sm md:text-4xl max-w-xm ">JOIN OUR CHANNEL WITH JUST ONE CLICK</p2>
+            </div>
+            <div class="flex justify-center space-x-5">
+                <img src="./images/whatsapp.svg" alt="" class=" w-8">
+                <img src="./images/square-facebook.svg" alt="" class="w-8">
+            </div>
+        </section>
+        <footer class="w-full bg-[#4b3772]  mt-12">
+            <div
+                class=" w-full flex flex-col space-y-3 pt-10 text-center  text-white md:flex-row md:justify-center md:items-center md:space-x-20 md:pt-5 ">
+                <p class="duration-2000 transistion-color hover:text-green-600">About Us</p>
+                <p class="duration-2000 transistion-color hover:text-green-600">Products</p>
+                <p class="duration-2000 transistion-color hover:text-green-600">Awards</p>
+                <p class="duration-2000 transistion-color hover:text-green-600">Help</p>
+                <p class=" text-xl duration-2000 transistion-color hover:text-green-600">Contact us</p>
+            </div>
+            <div class="border-t-2 w-72   mt-5 hidden  mx-auto border-gray-4000 md:block md:w-4/5 md:my-2 "></div>
+            <p class="px-10  max-w-xm md:max-w-lg md:mx-auto mt-10 text-gray-500 text-center">We are best in what we do
+                and we have done numerous jobs for clients. Contact us today for your investment plan.</p>
+            <div class="w-fit p-5 mx-auto px-auto">
+                <p class="text-2xl">FOR ENQUIRIES:</p>
+                <P class="">Call: <span class="text-orange-500">+234 7065227308</span></P>
+            </div>
+            <p class="py-5 text-gray-100 flex justify-center">
+                &#169; 2023 Captain's FXPro Signal
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>
