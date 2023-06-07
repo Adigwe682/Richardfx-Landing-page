@@ -1,0 +1,4 @@
+[[r_edirects]]
+from = "/*"
+to = "/index.html"
+status = 200
