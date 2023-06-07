@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#section1{
+background-image:url('../images/african-american-financial-advisors-reviewing-real-time-market-data-statistics-order-sell-stocks-hedge-fund-traders-sitting-workstation-while-pointing-display-with-live-index-charts.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+}
+header div .hamburger{
+    filter:brightness(200%)  hue-rotate(180%) sepia(200%);
+    background-color: white;
+}
+#mobile-menu .close{
+display: flex;
+justify-content: end;
+}
